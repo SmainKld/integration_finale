@@ -124,7 +124,7 @@ padding-left: 15px;
 .reward {
 position: absolute;
 top: 5px;
-left: 6px;
+left: 40px;
 padding: 1vw;
 font-family: "AnironC";
 font-size: 20px;
@@ -210,7 +210,11 @@ font-size: 15px;
 }
 
 .gim > h3 {
-padding-bottom: 13px;
+padding-bottom: 18px;
+}
+
+.ara > h3 {
+padding-bottom: 18px;
 }
 
 .base > .thumbnail {
