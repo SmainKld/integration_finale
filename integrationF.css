@@ -59,6 +59,18 @@ position : relative;
 top: 50%;
 }
 
+.unrelated {
+  font-family: "Party Business";
+  font-size: 4vw;
+  position : relative;
+  }
+
+.fancyjoke {
+  font-family: "Party Business";
+  font-size: 3vw;
+  position : relative;
+  color: orange;
+}
 
 .carousel img {
 min-width: 100%;
