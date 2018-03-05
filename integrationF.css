@@ -1,0 +1,256 @@
+                            /*Fonts*/
+@font-face {
+font-family: "AnironC";
+src: url("/fonts/AnironC-Regular-webfont.woff2") format("woff2"),
+url("/fonts/r-Regular-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Party Business";
+src: url("/fonts/Party Business-Regular-webfont.woff2") format("woff2"),
+url("/fonts/r-Regular-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Tengwar Annatar";
+src: url("/fonts/Tengwar Annatar-Regular-webfont.woff2") format("woff2"),
+url("/fonts/r-Regular-webfont.woff") format("woff");
+}
+
+
+                     /* Navigation bar */
+
+.navtxt {
+font-family: "AnironC";
+border-right: 1px solid white;
+}
+
+.navbar-inverse {
+background-color: orange;
+border-color: orange;
+margin-bottom:0px;
+}
+
+.navbar .navbar-nav {
+display: inline-block;
+float: none;
+vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav.navbar-nav li a {
+   color: #fff;
+ }
+
+                           /*Carousel*/
+
+.quotation1 {
+font-family: "Party Business";
+font-size: 4vw;
+position : relative;
+}
+.quotation2 {
+font-family: "Party Business";
+font-size: 3vw;
+position : relative;
+top: 50%;
+}
+
+
+.carousel img {
+min-width: 100%;
+max-height: 450px;
+}
+.carousel-caption{
+margin-top:0px;
+transform: translateY(-50%);
+}
+
+.sign {
+position: relative;
+right: -10%;
+top: 50%;
+}
+
+                                /* Pills */
+.titles {
+font-family: "AnironC";
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+}
+
+.nav-pills > li > a{
+color: grey;
+font-family: "AnironC";
+font-size: 15px;
+}
+
+.nav-pills > li > a:hover {
+border-bottom: 3px solid orange;
+padding-bottom: 2px;
+color: orange;
+}
+                            /*Thumbnails */
+.thumbnail {
+border: solid black;
+position: relative;
+}
+
+.backgroundblack {
+background-color: black;
+text-align: center;
+padding: 5px;
+}
+
+.caption > h3 {
+color: grey;
+font-family: "AnironC";
+font-size : 15px;
+}
+
+.first {
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.thumbnail > img {
+  filter: brightness(50%)
+}
+
+.reward {
+position: absolute;
+top: 5px;
+left: 6px;
+padding: 1vw;
+font-family: "AnironC";
+font-size: 20px;
+background-color: #fff;
+opacity: 0.7;
+border-radius: 1.5vw;
+color: black;
+}
+
+.names {
+position: absolute;
+top: 35%;
+left: 30%;
+color: white;
+font-family: "AnironC";
+font-size: 25px;
+}
+.special {
+text-decoration: line-through;
+text-decoration-color: orange;
+}
+
+.dead {
+color: orange;
+position: absolute;
+top: 8%;
+left: 35%;
+font-family: "AnironC";
+font-size: 25px;
+}
+
+.gand:hover >.reward1 {
+display: none;
+}
+
+.gand:hover >.gandalf {
+top: 70%;
+left: 37%;
+font-size: 15px;
+}
+
+.gand:hover > .gandalfi  {
+filter: brightness(90%)
+}
+
+.ara:hover > .reward2 {
+display: none;
+}
+
+
+.ara:hover > .aragorn {
+top: 70%;
+left: 37%;
+font-size: 15px;
+}
+
+.ara:hover {
+filter: brightness(90%)
+}
+
+.gim:hover > .dead {
+display: none;
+}
+
+.gim:hover > .special {
+top: 72%;
+font-size: 15px;
+left: 35%;
+}
+
+.gim:hover > .gimlii {
+top: 70%;
+left: 50%;
+font-size: 15px;
+}
+
+.gim:hover > .gimlii  {
+filter: brightness(90%)
+}
+
+h3 {
+font-size: 15px;
+}
+
+.gim > h3 {
+padding-bottom: 13px;
+}
+
+.base > .thumbnail {
+background-color: black;
+color: grey;
+font-family: "AnironC";
+font-size: 1px;
+}
+.orange {
+color: orange;
+}
+
+#fellows {
+background-image: url("https://image.noelshack.com/fichiers/2018/09/7/1520170141-bg-light.png");
+margin-top: 0px;
+}
+#nav {
+margin-bottom: 0px;
+}
+#capture {
+background-image: url("https://image.noelshack.com/fichiers/2018/09/7/1520178901-bg-dark.png");
+}
+
+.col-xs-10 > .titles {
+color: white;
+padding-top: 45px;
+}
+
+.textcapture {
+color: white;
+font-family: "AnironC";
+font-size: 15px;
+padding: 30px;
+line-height: 2;
+}
+
+.btn-default {
+color: orange;
+position: relative;
+left: 40%;
+font-family: "AnironC";
+font-size: 20px;
+}
